@@ -243,5 +243,76 @@ margin: 0 auto;
 #slide1,
 #slide2,
 #slide3{
-    width: 400px;
+    width: 100%;
 }
+
+
+.carousel{
+    width: 350px;
+    margin: 40px auto;
+    border: double 10px black;
+}
+
+.alertbox{
+    margin: 10px auto;
+    width: 90%;
+    min-width: 380px;
+    height: 700px;
+    background-color: white;
+}
+
+.alertbox h2{
+    position: relative;
+    color: black;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.icon{
+    width: 42px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+
+.form-control{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.alertbox label{
+    color: black;
+}
+
+.X-icon{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    margin: 10px auto;
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+}
+
+
+.alertbox-cont{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:0;
+}
+
+.alertbox-fixed{
+    position:fixed;
+    top:0;
+    height: 100%;
+    width:100%;
+    z-index:100;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+

@@ -80,3 +80,22 @@ cosmeticBtn.addEventListener("click", function(){
         this.textContent = "ЗАТВОРИ";
     }
 })
+
+
+const facebookBtn = document.querySelector('.fa-facebook-square');
+const link = 'https://mk-mk.facebook.com/pages/category/Health-Beauty/PZU-SKIN-Solution-186984801346238/';
+
+
+facebookBtn.addEventListener('click', function(){
+    window.open(link);
+
+})
+
+
+
+const exitBtn = document.querySelector('.X-icon');
+const popupBox = document.querySelector('.alertbox-fixed');
+
+exitBtn.addEventListener('click', function(){
+    popupBox.style.display = "none";
+})
